@@ -1,0 +1,36 @@
+.FullContainerNav{
+  align-items: center;
+  text-align: center;
+  min-width: 100vh;
+  min-height: 100vh;
+}
+
+.Navbar{
+  background-color: rgba(88, 153, 226, 0.6);
+  text-align: center;
+  min-height: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: black;
+  }
+  
+  .containerNv1{
+    align-items: center;
+    text-align: center;
+    min-height: 7vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: black;
+  }
+
+  .fullstack{
+    max-width: 100vh;
+    max-height: 100vh;
+  
+  }

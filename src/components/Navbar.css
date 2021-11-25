@@ -1,36 +1,28 @@
-.FullContainerNav{
+
+.navbar{
+  display: flex;
   align-items: center;
-  text-align: center;
-  min-width: 100vh;
-  min-height: 100vh;
+  height: 6vh;
+  margin: 0 auto;
+  font-size: calc(12px + 2vmin);
+  color: black;
+  
+  }
+
+.navbar .links {
+  margin-left: auto;
+}
+  
+.navbar a {
+  margin-right: 10px;
+  margin-left: 10px;
+  text-decoration: none;
+  padding: 8px ;
+  color: black;
 }
 
-.Navbar{
-  background-color: rgba(88, 153, 226, 0.6);
-  text-align: center;
-  min-height: 7vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: black;
-  }
-  
-  .containerNv1{
-    align-items: center;
-    text-align: center;
-    min-height: 7vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    font-size: calc(10px + 2vmin);
-    color: black;
-  }
-
-  .fullstack{
-    max-width: 100vh;
-    max-height: 100vh;
-  
-  }
+.navbar a:hover {
+  color: white;
+  background-color: rgba(88, 153, 226, 0.8);
+  border-radius: 8px;
+}

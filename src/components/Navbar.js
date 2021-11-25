@@ -6,9 +6,9 @@ function NavBar() {
             <div className="links">
                 <a href="/"><strong>Tiago Costa</strong></a>
                 <a href="/components/about">About</a>
-                <a href="/components//projects">Projects</a>
-                <a href="/components//contacts">Contacts</a>
-                <a href="https://github.com/tiagodfcosta" target="_blank">My GitHub</a>
+                <a href="/components/projects">Projects</a>
+                <a href="/components/contacts">Contacts</a>
+                <a href="https://github.com/tiagodfcosta" target="_blank" rel="noreferrer">My GitHub</a>
 
 
             </div>

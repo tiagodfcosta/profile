@@ -1,22 +1,23 @@
 import './Home.css';
+import tiago from './tiago_costa.webp'
 
 
 function Home() {
     return (
      <div className="home">
          
-         <div>
+         <div className="banner">
             < h2>Hello, I'm a full-stack developer based in Portugal</h2>
-                <img src="./fullstack.jpg" alt="FullStack"  height="30%" width="100%" />
+                <img src="./fullstack.webp" alt="FullStack" max-height="50%" width="50%" align="center" />
         </div>
            
-         <div className="container"> 
+         <div className="container1"> 
             <div className="containerDescription"> 
                 <div><h1>Tiago Costa</h1>
                 <p>JavaScript Full Stack Developer</p>
             </div>
-            <div>
-                <img src="./tiago_costa.jpeg" alt="Tiago Costa"  height="150px" />
+            <div className="fullstack">
+                <img src={tiago} alt="Tiago Costa" height="150px" style={{bordeRadius: '15px'}}/>
             </div>
            
         </div>

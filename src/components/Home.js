@@ -25,14 +25,14 @@ function Home() {
             </div>
         </div>
         <div className="skils">
-            <h2>Technologies I use</h2>
+            <h2>Languages I speak:</h2>
           <table className="table">
               <tr>
                 <th>
-                    Front End
+                    Front-end Developer
                 </th>
                 <th>
-                    Back End
+                    Back-end Developer
                 </th>
                 <th>
                     Microsoft Tools
@@ -42,14 +42,11 @@ function Home() {
                 <tr>HTML</tr>
                 <tr>CSS</tr>
                 <tr>JavaScript</tr>
-                <tr>Node</tr>
-                <tr>React</tr>
-                <tr>Bootstrap</tr>
+               
               </td>
               <td>
-                <tr>Express</tr>
-                <tr>MogoDB</tr>
-                <tr></tr>
+                <tr>Javascript</tr>
+        
               </td>
               <td>
                   <tr>
@@ -58,6 +55,20 @@ function Home() {
                   <tr>
                       PowerBI
                   </tr>
+              </td>
+              <tr>
+                  <th>Dev Tools:</th>
+                  <th>Dev Tools:</th>
+              </tr>
+              <td>
+                <tr>Node</tr>
+                <tr>React</tr>
+                <tr>Bootstrap</tr>
+              </td>
+              <td>
+                <tr>Express</tr>
+                <tr>MogoDB</tr>
+                <tr>SQL</tr>
               </td>
                
           </table>

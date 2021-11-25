@@ -5,23 +5,23 @@
   height: 6vh;
   margin: 0 auto;
   font-size: calc(9px + 2vmin);
-  color: black;
+  background-color: rgba(59, 67, 88, 0.2) ;
+  /* background-color: rgba(208, 130, 111, 0.7); */
   }
 
 .navbar .links {
-  margin-left: auto;
+  margin: auto;
 }
   
 .navbar a {
   margin-right: 5px;
-  margin-left: 5px;
   text-decoration: none;
   padding: 5px ;
-  color: black;
+  color: rgba(208, 130, 111, 1);
 }
 
 .navbar a:hover {
   color: white;
-  background-color: rgba(88, 153, 226, 0.8);
+  background-color: rgba(59, 67, 88, 0.5);
   border-radius: 8px;
 }

@@ -1,7 +1,14 @@
 
+.App {
+  align-items: center;
+  height: 6vh;
+  margin: 0 auto;
+
+}
+
 .App .content{
-  max-width: 100vh;
-  margin: 20px auto;
-  padding: 20px;
+  /* background-color: rgba(208, 130, 111, 0.3); */
+  /* background-color: rgba(59, 67, 88, 0.2) ; */
+  margin: 0 auto;
 
 }

@@ -6,7 +6,7 @@ import Home from './components/Home';
       return (
             <div className="App">
                 <NavBar />
-                  <div className="content">
+                  <div className="content" z-index={2}>
                     <Home />
                   </div>
             </div>

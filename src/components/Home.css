@@ -1,26 +1,34 @@
 .home {
+    z-index: 2;
     display: flex;
     flex-direction: column;
     align-items: center;
     text-align: center;
-    background-color: rgba(59, 67, 88, 0.5) ;    
+    background-color: rgba(59, 67, 88, 0.2) ; 
+    
+      
 }
 
 .home .container{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: center;
     margin: 10px auto;
+    text-align: center;
     
 }
 
 .home .container .containerDescription{
-    margin: 10px auto;
+    display: flex;
+    flex-direction: row;
+    padding: auto;
+    margin: auto;
+    
   
 } 
 
-.home .container .containerImg {
-    margin: 10px auto; 
+.home .container .containerDescription .img {
+    margin: auto !important;
     
 
 } 

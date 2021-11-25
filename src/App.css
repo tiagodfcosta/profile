@@ -1,8 +1,10 @@
 
 .App {
+  z-index: 1;
   align-items: center;
   height: 6vh;
   margin: 0 auto;
+
 
 }
 

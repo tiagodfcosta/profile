@@ -4,9 +4,8 @@
   align-items: center;
   height: 6vh;
   margin: 0 auto;
-  font-size: calc(12px + 2vmin);
+  font-size: calc(9px + 2vmin);
   color: black;
-  
   }
 
 .navbar .links {
@@ -14,10 +13,10 @@
 }
   
 .navbar a {
-  margin-right: 10px;
-  margin-left: 10px;
+  margin-right: 5px;
+  margin-left: 5px;
   text-decoration: none;
-  padding: 8px ;
+  padding: 5px ;
   color: black;
 }
 

@@ -1,17 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Intro from './components/Intro.js';
-import NavBar from './components/Navbar.js';
-import reportWebVitals from './reportWebVitals';
+import App from './App.js';
+
 
 
 ReactDOM.render(
   <React.StrictMode>
-    <NavBar />
-    <Intro />
+    <App />
   </React.StrictMode>,
   document.getElementById('root')
 );
 
-reportWebVitals();

@@ -2,7 +2,7 @@ import './Navbar.css';
 
 function NavBar() {
     return (
-        <nav className="navbar">
+        <nav className="navbar" z-index={1}>
             <div className="links">
                 <a href="/"><strong>Tiago Costa</strong></a>
                 <a href="/components/about">About</a>

@@ -1,4 +1,5 @@
 import ContactsCSS from './Contacts.module.css';
+import React from 'react'
 
 function Contacts() {
     return (

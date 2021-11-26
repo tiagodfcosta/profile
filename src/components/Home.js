@@ -1,78 +1,62 @@
-import './Home.css';
-import tiago from './tiago_costa.webp'
+import HomeCSS from './Home.module.css';
+import photo from './tiago_costa.webp'
 
 
 function Home() {
     return (
-     <div className="home">
+     <div className={HomeCSS.container}>
          
-         <div className="banner">
+         <div>
             < h2>Hello, I'm a full-stack developer based in Portugal</h2>
-                <img src="./fullstack.webp" alt="FullStack" max-height="50%" width="50%" align="center" />
+                <img className={HomeCSS.banner} src="./fullstack.webp" alt="FullStack" />
         </div>
            
-         <div className="container1"> 
-            <div className="containerDescription"> 
+         <div className={HomeCSS.containerName}> 
+            <div className={HomeCSS.name}> 
                 <div><h1>Tiago Costa</h1>
                 <p>JavaScript Full Stack Developer</p>
             </div>
-            <div className="fullstack">
-                <img src={tiago} alt="Tiago Costa" height="150px" style={{bordeRadius: '15px'}}/>
+            <div className={HomeCSS.fullstack}>
+                <img className= {HomeCSS.photo} src={photo} alt="Tiago Costa"/>
             </div>
            
         </div>
-            <div>
-                <p>Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas for every challenge that I'm faced with.</p>
+            <div className={HomeCSS.description}>
+                <p>Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas for every challenge that I'm faced with.
+                <br/>Recentemente realizei um Boot Camp de Programação, organizado numa parceria entre a Fundação Aga Khan e a Câmara Municipal de Sintra, com o objectivo de me tornar um Junior Full Stack Developer.
+                <br/>Sou uma pessoa dinâmica, motivado e procuro constantemente desenvolver-me tanto a nível profissional como pessoal.
+                <br/>Encaro com muito entusiasmo a possibilidade de integrar a vossa equipa futuramente.
+
+                </p>
             </div>
         </div>
-        <div className="skils">
-            <h2>Languages I speak:</h2>
-          <table className="table">
-              <tr>
-                <th>
-                    Front-end Developer
-                </th>
-                <th>
-                    Back-end Developer
-                </th>
-                <th>
-                    Microsoft Tools
-                </th>
-              </tr>
-              <td>
-                <tr>HTML</tr>
-                <tr>CSS</tr>
-                <tr>JavaScript</tr>
-               
-              </td>
-              <td>
-                <tr>Javascript</tr>
-        
-              </td>
-              <td>
-                  <tr>
-                      Microsoft Office
-                  </tr>
-                  <tr>
-                      PowerBI
-                  </tr>
-              </td>
-              <tr>
-                  <th>Dev Tools:</th>
-                  <th>Dev Tools:</th>
-              </tr>
-              <td>
-                <tr>Node</tr>
-                <tr>React</tr>
-                <tr>Bootstrap</tr>
-              </td>
-              <td>
-                <tr>Express</tr>
-                <tr>MogoDB</tr>
-                <tr>SQL</tr>
-              </td>
-               
-          </table>
+        <div >
+            {/* <h2>Languages I speak</h2> */}
+            <div className={HomeCSS.containerSkills}>
+                <div className={HomeCSS.frontEnd}>
+                    <h3>Front End</h3>
+                    <p>HTML, CSS, JavaScript</p>
+                    <h4>Dev Tools:</h4>
+                    <ul>
+                        <li>Node</li>
+                        <li>React</li>
+                        <li>Bootstrap</li>
+                    </ul>
+
+
+                </div>
+
+                <div className={HomeCSS.backEnd}>
+                    <h3>Back End</h3>
+                    <p>JavaScript</p>
+                    <h4>Dev Tools:</h4>
+                    <ul>
+                        <li>Express</li>
+                        <li>MogoDB</li>
+                        <li>SQL</li>
+                    </ul>
+                </div>
+            </div>
         </div>
         
     </div>

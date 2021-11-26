@@ -1,8 +1,8 @@
-import './Contacts.css';
+import ContactsCSS from './Contacts.module.css';
 
 function Contacts() {
     return (
-      <div className="contacts">
+      <div className={ContactsCSS}>
           <h1>Contacts</h1>
       </div>
     )

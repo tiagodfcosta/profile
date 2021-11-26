@@ -1,8 +1,8 @@
-import './About.css';
+import AboutCSS from './About.module.css';
 
 function About() {
     return (
-      <div className="About">
+      <div className={AboutCSS}>
           <h1>About</h1>
       </div>
     )

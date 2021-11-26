@@ -1,9 +1,9 @@
-import './Navbar.css';
+import NavbarCSS from './Navbar.module.css';
 
 function NavBar() {
     return (
-        <nav className="navbar">
-            <div className="links">
+        <nav className={NavbarCSS.container}>
+            <div className={NavbarCSS.links}>
                 <a href="/"><strong>Tiago Costa</strong></a>
                 <a href="/components/About">About</a>
                 <a href="/components/Projects">Projects</a>

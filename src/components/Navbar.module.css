@@ -1,37 +1,30 @@
 
-.navbar{
-  z-index: 0;
+.container{
   position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 100%;
   overflow: hidden;
-  
-  top: 0;
   font-size: calc(9px + 2vmin);
   background-color: rgba(79,83,254, 0.9);
+  padding: 10px 10px 10px 10px;
+}
 
-  padding: 15px 20px 15px 20px;
-  }
-
-.navbar .links {
+.links {
   margin: auto;
 }
   
-.navbar a {
+.links a {
   margin-right: 5px;
   text-decoration: none;
   padding: 5px ;
-  color: rgba(208, 130, 111, 1);
+  color: white;
 }
 
-.navbar a:hover {
+.links a:hover {
   color: white;
   background-color: rgba(59, 67, 88, 0.5);
   border-radius: 8px;
 }
 
-.skills .table {
-  border: 1 solid;
-}

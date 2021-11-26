@@ -1,8 +1,9 @@
-import './Projects.css';
+import ProjectsCSS from './Projects.module.css';
+import React from 'react'
 
-function Contacts() {
+function Projects() {
     return (
-      <div className="Projects">
+      <div className={ProjectsCSS.container}>
           <h1>Projects</h1>
       </div>
     )

@@ -1,5 +1,6 @@
 import HomeCSS from './Home.module.css';
 import photo from './tiago_costa.webp'
+import React from 'react'
 
 
 function Home() {

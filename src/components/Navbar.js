@@ -10,9 +10,7 @@ function NavBar() {
                 <Link  to="/components/About">About</Link>
                 <Link  to="/components/Projects">Projects</Link>
                 <Link  to="/components/Contacts">Contacts</Link>
-                <Link to="https://github.com/tiagodfcosta" target="_blank" >My GitHub</Link>
-
-
+                <Link to={{ pathname: "https://github.com/tiagodfcosta" }} target="_blank" >My GitHub</Link>
             </div>
         </nav>
     )

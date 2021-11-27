@@ -10,7 +10,7 @@ function NavBar() {
                 <Link  to="/components/About">About</Link>
                 <Link  to="/components/Projects">Projects</Link>
                 <Link  to="/components/Contacts">Contacts</Link>
-                <a href="https://github.com/tiagodfcosta" target="_blank" rel="noreferrer">My GitHub</a>
+                <Link to="https://github.com/tiagodfcosta" target="_blank" >My GitHub</Link>
 
 
             </div>

@@ -1,15 +1,11 @@
 
 .App {
-  z-index: 1;
+  position: absolute;
   align-items: center;
-  height: 6vh;
-  margin: 0 auto;
+  height: 100%;
+  scroll-behavior: smooth;
 }
 
 .App .content{
-  /* background-color: rgba(208, 130, 111, 0.3); */
-  /* background-color: rgba(59, 67, 88, 0.2) ; */
-  margin: 0 auto;
-  padding-top: 6vh;
-
+  padding-top: 3%;
 }

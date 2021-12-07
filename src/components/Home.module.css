@@ -81,16 +81,6 @@
     height:300px;
 }
 
-.frontEnd ul{
-    list-style: none;
-    list-style-position: inside;
-}
-
-.backEnd ul{
-    list-style: none;
-    list-style-position: inside;
-}
-
 .backEnd{
     text-align: center;
     align-items: center;

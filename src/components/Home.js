@@ -38,25 +38,15 @@ function Home() {
                     <h3>Front End</h3>
                     <p>HTML, CSS, JavaScript</p>
                     <h4>Dev Tools:</h4>
-                    <ul>
-                        
-                        <li>React</li>
-                        <li>Bootstrap</li>
-                    </ul>
-
-
+                    <p>React, Bootstrap</p>
                 </div>
 
                 <div className={HomeCSS.backEnd}>
                     <h3>Back End</h3>
                     <p>JavaScript</p>
                     <h4>Dev Tools:</h4>
-                    <ul>
-                        <li>Node</li>
-                        <li>Express</li>
-                        <li>MogoDB</li>
-                        <li>SQL</li>
-                    </ul>
+                    <p>Node, Express, MogoDB, SQL</p>
+        
                 </div>
             </div>
         </div>

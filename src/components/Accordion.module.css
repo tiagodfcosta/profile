@@ -1,0 +1,26 @@
+.accordion {
+    border-top: 1px solid black
+
+}
+
+
+.item {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    align-items: center;
+    justify-items: space-between;
+}
+
+.item:hover {
+
+    background-color: lightgray;
+    color: white;
+   
+}
+
+.title {
+    display: flex;
+    flex-direction: row;
+    font-weight: bold;
+}

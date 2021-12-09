@@ -41,7 +41,7 @@ function Home() {
                     <h3>Back End</h3>
                     <p>JavaScript</p>
                     <h4>Dev Tools:</h4>
-                    <p>Node, Express, MogoDB, SQL</p>
+                    <p>Node, Express, MongoDB, SQL</p>
         
                 </div>
             </div>

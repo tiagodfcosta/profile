@@ -12,13 +12,13 @@
     display: flex;
     flex-direction: column;
     align-items:  center;
+    margin: 20px;
 }
 
 
 .banner {
     align-items:  center;
-    max-height: 20%;
-    width: 30%;
+    width: 100%;
     
 }
 

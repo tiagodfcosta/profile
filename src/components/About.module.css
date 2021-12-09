@@ -1,18 +1,17 @@
 
 .container {
-    width: 100%;
-    background-color: white;
     color: black;
     align-items: flex-start;
     
 }
 
 .Accordion {
+    max-width : 100%;
     text-align: center;
     color: black;
     display:list-item;
     align-items:  center;
-    padding: 5vh 10vh 5vh 10vh;
+    padding: 0vh 2vh 0vh 2vh;
 }
 
 

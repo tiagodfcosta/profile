@@ -12,6 +12,9 @@ import {BrowserRouter as Router, Route, Switch} from 'react-router-dom';
             <Router>
               <div className="App">
                 <NavBar />
+                <div className="containerBanner">
+                  <img className="banner" src="./fullstack.png" alt="FullStack" />
+                </div>  
                   <div className="content" >
                     <Switch>
                       <Route exact path="/">

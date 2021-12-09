@@ -1,15 +1,15 @@
 .accordion {
-    border-top: 1px solid black
-
+    border-bottom: 1px solid lightgray;
+    align-items: center;
 }
+
+
 
 
 .item {
     display: flex;
     flex-direction: column;
     padding: 10px;
-    align-items: center;
-    justify-items: space-between;
 }
 
 .item:hover {
@@ -22,5 +22,9 @@
 .title {
     display: flex;
     flex-direction: row;
-    font-weight: bold;
+    
+}
+
+.content {
+    margin: 10px 10px 10px 10px;
 }

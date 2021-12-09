@@ -1,15 +1,28 @@
 
 .container {
-    margin-top: 50px;
+    width: 100%;
+    background-color: white;
+    color: black;
+    align-items: flex-start;
+    
+}
+
+.Accordion {
     text-align: center;
     color: black;
-    align-items: center;
-    text-align: center;
-
-
+    display:list-item;
+    align-items:  center;
+    padding: 5vh 10vh 5vh 10vh;
 }
+
 
 .education{
     display: flex;
     flex-direction: column;
+}
+
+.title{
+    background-color: grey;
+    color: white;
+
 }

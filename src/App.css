@@ -1,11 +1,13 @@
 
 .App {
-  position: absolute;
   align-items: center;
   height: 100%;
   scroll-behavior: smooth;
+  display: flex;
+  flex-direction: column;
 }
 
 .App .content{
-  padding-top: 3%;
+  margin-top: 3em !important;
+  width: 100%;
 }

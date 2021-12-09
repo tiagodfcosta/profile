@@ -4,7 +4,7 @@ import React from 'react'
 function Projects() {
     return (
       <div className={ProjectsCSS.container}>
-          <h1>Projects</h1>
+          <div className={ProjectsCSS.title}><h1>Projects</h1></div>
       </div>
     )
 }

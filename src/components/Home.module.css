@@ -6,14 +6,12 @@
     color: black;
     align-items: center;
     text-align: center;
-
 }
 
 .containerBanner{
     display: flex;
     flex-direction: column;
     align-items:  center;
-    padding: 5vh 10vh 5vh 10vh;
 }
 
 

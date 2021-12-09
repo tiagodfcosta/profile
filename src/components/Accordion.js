@@ -7,12 +7,12 @@ const Accordion = ({ title, content, duration }) => {
   return (
     <div className={AccordionCSS.accordion}>
       <div className={AccordionCSS.item} onClick={() => setIsActive(!isActive)}>
-        <div className= {AccordionCSS.title}>{title}
+        <div className= {AccordionCSS.title}><strong>{title}</strong> | {duration}
         {isActive ? '' : ''}
         </div>
       </div>
-      {isActive && <div className="accordion-content">{content}</div>}
-      {isActive && <div className="accordion-content">{duration}</div>}
+      {isActive && <div className={AccordionCSS.content}>{content}</div>}
+      
     </div>
   );
 };

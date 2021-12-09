@@ -13,9 +13,8 @@
 }
 
 .item:hover {
-
-    background-color: lightgray;
-    color: white;
+    color: rgb(35, 61, 77);
+    background-color: rgba(254, 127, 45, 0.4);
    
 }
 

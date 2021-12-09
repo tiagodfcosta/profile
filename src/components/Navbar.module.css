@@ -7,7 +7,7 @@
   width: 100%;
   overflow: hidden;
   font-size: calc(9px + 2vmin);
-  background-color: rgba(241, 171, 134, 0.9);
+  background-color: rgba(97, 155, 138, 0.9);
   padding: 10px 10px 10px 10px;
 }
 
@@ -19,12 +19,12 @@
   margin-right: 5px;
   text-decoration: none;
   padding: 5px ;
-  color: white;
+  color: rgb(35, 61, 77);
 }
 
 .links a:hover {
-  color: white;
-  background-color: rgba(59, 67, 88, 0.5);
+  color: rgb(35, 61, 77);
+  background-color: rgba(254, 127, 45, 0.4);
   border-radius: 8px;
 }
 

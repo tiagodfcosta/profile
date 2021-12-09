@@ -1,68 +1,51 @@
 .container {
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: white;
-    color: black;
-    align-items: center;
+    background-color: rgba(161, 193, 129, 1);
+    color: black;  
     text-align: center;
 }
 
-.containerBanner{
-    display: flex;
-    flex-direction: column;
-    align-items:  center;
-    margin: 20px;
-}
 
-
-.banner {
-    align-items:  center;
-    width: 100%;
-    
-}
 
 .containerName{
     display: flex;
     flex-direction: column;
     align-items: center;
-    text-align: center;
     padding: 5vh 10vh 5vh 10vh;
-    background-color: rgba(241, 171, 134, 0.2);
-    color: black;   
+    color: 35, 61, 77;  
 }
 
 .name {
-    align-items: center;
     display: flex;
     flex-direction: row;
+    align-items: center;    
 }
 
 .fullstack{
-    box-align: center;
     padding: 10px 10px 10px 10px;
 }
 
 .photo{
     height: 200px;
-    border-radius: 90px;
+    border-radius: 2px;
     border: 2px solid;
-    border-color: rgba(241, 171, 134, 0.6);
+    border-color: rgba(1, 42, 74, 0.6);
+    box-shadow: -6px 5px rgba(1, 42, 74, 0.3);
 }
 
 .description{
     display: flex;
     flex-direction: row;
     padding: 10px 10px 50px 10px;
+    text-align: justify;
 } 
 
 
 .containerSkills{
     align-items: center;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
     padding: 10px 10px 10px 10px;
-    margin: -10vh;
+    margin: -25vh;
 
 }
 
@@ -72,11 +55,11 @@
     display:flex;
     flex-direction: column;
     padding: 10px 10px 10px 10px;
-    border: 1px solid rgba(241, 171, 134, 0.7);
+    border: 1px solid rgba(35, 61, 77, 0.7);
     border-radius: 15px;    
     background-color: white;  
-    width: 350px;
-    height:300px;
+    width: 250px;
+    height:250px;
 }
 
 .backEnd{
@@ -85,20 +68,20 @@
     display: flex;
     flex-direction: column;
     padding: 10px 10px 10px 10px;
-    border: 1px solid rgba(241, 171, 134, 0.7);
+    border: 1px solid rgba(1, 42, 74, 0.7);
     border-radius: 15px;
     background-color: white;
-    width: 350px;
-    height:300px;   
+    width: 250px;
+    height:250px;  
 }
 
 .frontEnd h3, h4{
-    color: rgba(241, 171, 134, 1);
+    color: rgba(35, 61, 77, 1);
 
 
 }
 
 .backEnd  h3, h4{
-   color: rgba(241, 171, 134, 1);
+   color: rgba(35, 61, 77, 1);
 
 }

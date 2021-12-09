@@ -1,7 +1,7 @@
 export const education = [
     {
         title: 'BOOTCAMP PROGRAMAÇÃO',
-        content: 'Front end development HTML, CSS and JavaScript +React \n Back end development MongoDB and JavaScript +NodeJS',
+        content: `Front end development HTML, CSS, JavaScript and React || Back end development MongoDB and JavaScript +NodeJS`,
         duration: '400H - 2021'
     },
     {

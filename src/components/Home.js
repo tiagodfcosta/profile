@@ -7,10 +7,7 @@ function Home() {
     return (
      <div className={HomeCSS.container}>
          
-        <div className={HomeCSS.containerBanner}>
-            < h2>Hello, I'm a full-stack developer based in Portugal</h2>
-                <img className={HomeCSS.banner} src="./fullstack.webp" alt="FullStack" />
-        </div>
+   
            
         <div className={HomeCSS.containerName}> 
             <div className={HomeCSS.name}> 
@@ -32,7 +29,6 @@ function Home() {
             </div>
         </div>
         <div >
-            {/* <h2>Languages I speak</h2> */}
             <div className={HomeCSS.containerSkills}>
                 <div className={HomeCSS.frontEnd}>
                     <h3>Front End</h3>

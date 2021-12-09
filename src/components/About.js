@@ -7,8 +7,8 @@ import { experience } from '../content/experience.js';
 
 const About = () => {
     return (
-        <div className={AboutCSS.container}>                        
-                <div className={AboutCSS.Accordion}>
+        <div className={AboutCSS.container}>     
+                 <div className={AboutCSS.Accordion}>
                     <h2 className={AboutCSS.title}>Education</h2>
                     {education.map(({ title, content, duration }) => (
                     <Accordion title={title} content={content} duration={duration} />

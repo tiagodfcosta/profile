@@ -5,6 +5,20 @@
   scroll-behavior: smooth;
   display: flex;
   flex-direction: column;
+  
+}
+
+.containerBanner {
+  margin-top: 3em !important;
+  display: flex;
+  flex-direction: column;
+}
+
+.banner {
+  height: 40%;
+  width: 500px;
+  margin-top: 25px;
+  padding : 10px 10px 10px 10px;
 }
 
 .App .content{

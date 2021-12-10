@@ -59,7 +59,7 @@
     border-radius: 15px;    
     background-color: white;  
     width: 250px;
-    height:250px;
+    height:320px;
 }
 
 .backEnd{
@@ -72,7 +72,7 @@
     border-radius: 15px;
     background-color: white;
     width: 250px;
-    height:250px;  
+    height:320px;  
 }
 
 .frontEnd h3, h4{
@@ -84,4 +84,36 @@
 .backEnd  h3, h4{
    color: rgba(35, 61, 77, 1);
 
+}
+
+@media  (max-width: 500px) {
+
+    .containerSkills{
+        display: flex;
+        flex-direction: column;
+        padding: 0vh 10vh 0vh 10vh;
+        margin: -7vh;
+    }
+
+    .containerName{
+        
+        padding: 5vh 3vh 5vh 3vh;
+        color: 35, 61, 77;  
+    }
+
+    .containerSkills{
+        flex-direction: column;
+        padding: 0px 0px 0px 0px;
+        margin: 0vh;
+        margin-top: -7vh;
+    
+    }
+    
+    .frontEnd{
+        height:200px;
+    }
+    
+    .backEnd{
+        height:200px;  
+    }
 }

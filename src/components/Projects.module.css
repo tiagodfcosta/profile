@@ -1,6 +1,7 @@
 .container {
-    background-color: red;
-
+    background-color: rgba(161, 193, 129, 1);
+    color: black;  
+    text-align: center;
 }
 
 .title {

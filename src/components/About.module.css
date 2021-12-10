@@ -2,6 +2,7 @@
 .container {
     color: black;
     align-items: flex-start;
+    background-color: rgba(97, 155, 138, 0.3);
     
 }
 
@@ -11,7 +12,7 @@
     color: black;
     display:list-item;
     align-items:  center;
-    padding: 0vh 2vh 0vh 2vh;
+    padding: 0vh 0vh 0vh 0vh;
 }
 
 
@@ -23,5 +24,6 @@
 .title{
     background-color: rgba(161, 193, 129, 0.8);;
     color: rgb(35, 61, 77);
+    border-radius: 10px;
 
 }

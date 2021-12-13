@@ -20,11 +20,10 @@ function Home() {
            
             </div>
             <div className={HomeCSS.description}>
-                <p>Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas for every challenge that I'm faced with.
-                <br/>Recentemente realizei um Boot Camp de Programação, organizado numa parceria entre a Fundação Aga Khan e a Câmara Municipal de Sintra, com o objectivo de me tornar um Junior Full Stack Developer.
-                <br/>Sou uma pessoa dinâmica, motivado e procuro constantemente desenvolver-me tanto a nível profissional como pessoal.
-                <br/>Encaro com muito entusiasmo a possibilidade de integrar a vossa equipa futuramente.
-
+                <p>
+                Hi there! I'm a 29 years old full-stack developer based in Portugal. In March 2020, due to covid19 i lost my job, and as a half full glass person, i took a leap of faith and embrace coding as part of my life and for 10 weeks I took part in the intensive programming Boot Camp of Bytes4Future. <br/>
+                In this program I learned to write JavaScript (ES6) code, I also learned the basis of topics such as Object Oriented Programming, Data Structures, Algorithms, Functional Programming and Basic Software Principles. <br/>
+                Extremely motivated to constantly develop my skills and grow professionally. I am confident in my ability to come up with interesting ideas for every challenge that I'm faced with.
                 </p>
             </div>
         </div>

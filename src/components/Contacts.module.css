@@ -1,0 +1,22 @@
+.container {
+    background-color: rgba(161, 193, 129, 1);
+    color: black;  
+    text-align: center;
+    margin: 0vh 45vh 0vh 45vh;
+    border-radius: 15px;
+}
+
+@media  (max-width: 2400px) {
+
+    .container{
+        margin: 0vh 35vh 0vh 35vh;
+    }
+}
+
+@media  (max-width: 1500px) {
+
+    .container{
+        margin: 0vh 0vh 1vh 0vh;
+    }
+}
+

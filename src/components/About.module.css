@@ -9,10 +9,12 @@
 }
 
 .Accordion {
+    text-decoration: none;
     max-width : 100%;
     text-align: center;
     color: black;
     display:list-item;
+    list-style: none;
     align-items:  center;
     padding: 0vh 0vh 0vh 0vh;
 }

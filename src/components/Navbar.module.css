@@ -8,7 +8,7 @@
   overflow: hidden;
   font-size: calc(12px + 2vmin);
   background-color: rgba(97, 155, 138, 0.9);
-  padding: 15px 0px 15px 0px;
+  padding: 15px 0px 15px 0px; 
 }
 
 .links {

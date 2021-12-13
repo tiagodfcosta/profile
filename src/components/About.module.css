@@ -3,6 +3,8 @@
     color: black;
     align-items: flex-start;
     background-color: rgba(97, 155, 138, 0.3);
+    margin: 0vh 45vh 0vh 45vh;
+    border-radius: 15px;
     
 }
 
@@ -26,4 +28,18 @@
     color: rgb(35, 61, 77);
     border-radius: 10px;
 
+}
+
+@media  (max-width: 2400px) {
+
+    .container{
+        margin: 0vh 35vh 0vh 35vh;
+    }
+}
+
+@media  (max-width: 1500px) {
+
+    .container{
+        margin: 0vh;
+    }
 }

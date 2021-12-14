@@ -4,6 +4,7 @@
     text-align: center;
     margin: 0vh 45vh 0vh 45vh;
     border-radius: 15px;
+    padding: 15px;
     }
 
 .projects{
@@ -17,7 +18,7 @@
 
 .Container1{
     flex-direction: column;
-    padding: 20px 90px 0px 50px;
+    padding: 20px 70px 0px 70px;
     border: 1px solid rgba(1, 42, 74, 0.7);
     border-radius: 15px;
     background-color: white;
@@ -41,28 +42,26 @@
 
 
 .Container1:hover{
-    background-color: rgba(254, 127, 45, 0.4);
     opacity:0.9;
+    transform: scale(1.1)
 }
 
-.img1:hover{
-    transform: scale(1.2)
-}
 
 .Container2:hover{
-    background-color: rgba(254, 127, 45, 0.4);
     opacity:0.9;
+    transform: scale(1.1)
 }
 
-.img2:hover{
-    transform: scale(1.2)
-}
 
 .img1 {
-    width: 300px;
+    width: 250px;
     padding-top: 4em;
 }
 
+.teste{
+    background-color: purple;
+    height: 100px;
+}
 
 
 @media  (max-width: 2400px) {
@@ -96,4 +95,38 @@
         justify-content: center;
     }
 
+}
+
+
+
+@media  (max-width: 500px) {
+
+    .projects{
+        margin: 0vh 5vh 0vh 5vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .Container1{
+        align-content: center;
+        padding: 20px 70px 0px 70px;
+        width: 150px;
+        height:250px; 
+        
+    }
+    .img1{
+        width: 150px;
+        padding-top: 4em;
+    }
+
+    .img2{
+        width: 150px;
+    }
+    .Container2{
+        padding: 20px 70px 0px 70px;
+        width: 150px;
+        height:250px; 
+        
+    }
 }

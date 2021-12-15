@@ -19,7 +19,7 @@ const About = () => {
                         <Accordion title={title} content={content} duration={duration} />
                     ))}
                 
-                    <h2 className={AboutCSS.title}>Experience</h2>
+                    <h2 className={AboutCSS.title}>Work Experience</h2>
                     {experience.map(({ title, content, duration }) => (
                     <Accordion title= {title} content={content} duration={duration} />
                     ))}

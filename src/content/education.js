@@ -14,17 +14,17 @@ export const education = [
     },
     {
         title: 'POWER UP',
-        content: 'INICIAÇÃO À PROGRAMAÇÃO MULTIMÉDIA - FOTOGRAFIA,VÍDEO, SOM E DESIGN',
+        content: 'INITIATION TO PROGRAMMING, MULTIMEDIA - PHOTOGRAPHY, VIDEO, SOUND AND DESIGN',
         duration: '400H - 2021'
     },
     {
-        title: 'FREQUÊNCIA UNIVERSITÁRIA - CURSO DE GEOLOGIA',
-        content: 'Faculdade de Ciências da Universidade de Lisboa',
+        title: 'GEOLOGY COURSE (Uncompleted)',
+        content: 'Faculty of Sciences of the University of Lisbon',
         duration: '2011 - 2014'
     },
     {
-        title: '12º ANO, CURSO CIENTÍFICO-HUMANÍSTICO DE CIÊNCIAS E TECNOLOGIAS',
-        content: 'Agrupamento de Escolas Ibn Mucana, Alcabideche',
+        title: '12º SCIENTIFIC-HUMANISTIC COURSE IN SCIENCE AND TECHNOLOGY',
+        content: 'Ibn Mucana School, Alcabideche',
         duration: '2010 - 2011'
     }
  

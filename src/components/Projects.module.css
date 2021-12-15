@@ -1,7 +1,12 @@
+.FullContainer{
+    display: flex-inline-block;
+    align-items: center;
+}
+
 
 .container {
     background-color: rgba(161, 193, 129, 1);
-    color: black;  
+    color: black;
     text-align: center;
     margin: 0vh 45vh 0vh 45vh;
     border-radius: 15px;
@@ -24,7 +29,7 @@
     border-radius: 15px;
     background-color: white;
     width: 250px;
-    height:320px; 
+    height:320px;
     box-shadow: -6px 5px rgba(1, 42, 74, 0.3);
     margin: 1vh;
 }
@@ -36,7 +41,7 @@
     border-radius: 15px;
     background-color: white;
     width: 250px;
-    height:320px; 
+    height:320px;
     box-shadow: -6px 5px rgba(1, 42, 74, 0.3);
     margin: 1vh;
 }
@@ -59,54 +64,104 @@
     padding-top: 4em;
 }
 
+
+
 .containerProjects{
     display: flex;
-    flex-direction: column;
-    color: black;  
-    align-items: center;
-    align-content: center;
-    margin: 0vh 45vh 0vh 45vh;
-    padding: 0vh 35vh 0vh 35vh;
+    flex-direction: row;
 
 }
-
+.Garconet{
+    align-self: center;
+    align-items: center;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+}
 .GNcontent{
     display: flex;
     flex-direction: column;
     text-align: justify;
+    align-self: center;
+    align-items: center;
+    margin: 0vh 35vh 0vh 35vh;
+
 }
 
 .App{
     display: flex;
     flex-direction: row;
+    align-self: center;
     align-items: center;
-    align-content: center;
-
 }
 .imgAPP{
     width: 300px;
     margin: 1em;
 }
 
+.Site{
+    padding-top: 3em;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: justify;
+    align-self: center;
+    align-items: center;
+    margin: 0vh 45vh 0vh 45vh;
+}
+
+.imgSite{
+    height: 50px;
+}
+
+
 @media  (max-width: 2400px) {
 
     .container{
         margin: 0vh 35vh 0vh 35vh;
-        
+
     }
 
     .containerProjects{
         display: flex;
         flex-direction: row;
-        margin: 0vh 50vh 0vh 50vh;
-       
     }
+
+    .Site{
+        margin: 0vh 35vh 0vh 35vh;
+    }
+}
+
+@media  (max-width: 1900px) {
+    .App{
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        background-color: red;
+    }
+
+    .GNcontent{
+        margin: 0vh 25vh 0vh 25vh;
+
+    }
+
+    .Site{
+        margin: 0vh 35vh 0vh 35vh;
+    }
+
+    .containerProjects{
+        display: flex;
+        flex-direction: row;
+    }
+
+
+
 }
 
 @media  (max-width: 1500px) {
 
     .container{
-        margin: 0vh 0vh 1vh 0vh;
+        margin: 0vh 0vh 0vh 0vh;
     }
 
     .projects{
@@ -117,15 +172,16 @@
     }
 
     .containerProjects{
-        margin: 0vh 0vh 0vh 0vh;
-    
-        
+        margin: 0vh 25vh 0vh 25h;
     }
-    .App{
-        display: flex;
-        flex-direction: column;
+
+    .GNcontent{
+        margin: 0vh 15vh 0vh 15vh;
     }
-  
+
+    .Site{
+        margin: 0vh 15vh 0vh 15vh;
+    }
 }
 
 @media  (max-width: 1000px) {
@@ -137,15 +193,19 @@
         justify-content: center;
     }
 
-    .containerProjects{
-        padding: 0vh 15vh 0vh 15vh;
-    }
      .App{
         display: flex;
         flex-direction: column;
     }
-}
 
+    .GNcontent{
+        margin: 0vh 10vh 0vh 10vh;
+    }
+    .Site{
+        margin: 0vh 5vh 0vh 5vh;
+    }
+
+}
 
 
 @media  (max-width: 500px) {
@@ -161,8 +221,8 @@
         align-content: center;
         padding: 20px 70px 0px 70px;
         width: 150px;
-        height:250px; 
-        
+        height:250px;
+
     }
     .img1{
         width: 150px;
@@ -175,12 +235,16 @@
     .Container2{
         padding: 20px 70px 0px 70px;
         width: 150px;
-        height:250px; 
-        
+        height:250px;
+
     }
 
-    .containerProjects{
-        padding: 0vh 5vh 0vh 5vh;
+    .GNcontent{
+        margin: 0vh 1vh 0vh 1vh;
     }
-   
+
+    .Site{
+        margin: 0vh 2vh 0vh 2vh;
+    }
+
 }

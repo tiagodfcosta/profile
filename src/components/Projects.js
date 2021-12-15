@@ -49,9 +49,18 @@ Once the client is done ordering and all the orders are checked as closed by the
 The initial idea was to create all the app using Next.js and to connect everything  with WebSockets but unfortunately with the time pre-established by the professor  we weren't able to do it. So we opted to use React.js for front-end, Express.js for back-end and MongoDB as our database.
 If interested you can check the con on my GitHub.</p> 
                     <div className={ProjectsCSS.App}>
-                      <img className={ProjectsCSS.imgAPP} src="../garconet1.png" alt="Garconet1" />
-                      <img className={ProjectsCSS.imgAPP} src="../garconet2.png" alt="Garconet2" />
+                      <div className={ProjectsCSS.divAPP}>
+                        <img className={ProjectsCSS.imgAPP} src="../garconet1.png" alt="Garconet1"/>  
+                        <p>FrontEnd Client img.1</p> 
+                      </div>
+                      <div className={ProjectsCSS.divAPP}>
+                        <img className={ProjectsCSS.imgAPP} src="../garconet2.png" alt="Garconet2" />
+                        <p>FrontEnd Client img.2</p> 
+                      </div>
+                      <div className={ProjectsCSS.divAPP}>
                       <img className={ProjectsCSS.imgAPP} src="../garconet3.png" alt="Garconet3" />
+                       <p>FrontEnd Establishment</p> 
+                      </div>
                     </div>
 
                   </div>

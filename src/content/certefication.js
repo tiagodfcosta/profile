@@ -1,17 +1,17 @@
 export const certifications = [
     {
-        title: 'INTERMEDIAÇÃO DE CRÉDITO',
-        content: 'IFB - Instituto de Formação Bancária',
+        title: 'CREDIT INTERMEDIATION',
+        content: 'IFB - Institute for Banking Training',
         duration: '25H - 2020'
     },
     {
-        title: 'COMERCIALIZAÇÃO DE CRÉDITO HIPOTECÁRIO',
-        content: 'IFB - Instituto de Formação Bancária',
+        title: 'MORTGAGE CREDIT MARKETING',
+        content: 'IFB - Institute for Banking Training',
         duration: '25H - 2020'
     },
     {
-        title: 'REGULAMENTO GERAL DE PROTEÇÃO DE DADOS - O ENCARREGADO DA PROTEÇÃO DE DADOS',
-        content: 'AEP - Associação Empresarial de Portugal',
+        title: 'GENERAL DATA PROTECTION REGULATION - THE DATA PROTECTION OFFICER',
+        content: 'AEP - Portuguese Business Association',
         duration: '48H - 2018'
     }
   ];
